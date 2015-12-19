@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/*
+//
+// Designkit-Utilities
+// --------------------------------------------------
+*/
+
+// Spacing
+// -------------------------
+
+.no-margin {
+  margin: unpack(0);
+}
+.no-padding {
+  padding: unpack(0);
+}
+
+// Floats
+// -------------------------
+
+.clearfix {
+  @include clearfix;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+// Toggling
+// -------------------------
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+// Positioning
+// -------------------------
+
+.relative {
+  position: relative;
+}
+
+.fit {
+  @include position(absolute, 0 0 0 0);
+}
+
+// Blocks
+// -------------------------
+
+.block {
+  display: block;
+ }
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+// Fixed Positions
+// -------------------------
+
+.fixed-bottom,
+.fixed-left,
+.fixed-right,
+.fixed-top {
+  position: fixed;
+}
+
+.fixed-top {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.fixed-right {
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.fixed-bottom {
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.fixed-left {
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+// Other
+// -------------------------
+
+.scroll {
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+}
+
+body {
+  &.fullbleed {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+}

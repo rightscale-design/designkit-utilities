@@ -1,0 +1,30 @@
+{
+  "name": "designkit-utilities",
+  "version": "0.0.1",
+  "description": "Sass module containing utility classes.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rightscale-design/designkit-utilities.git"
+  },
+  "author": {
+    "name": "Jason Melgoza",
+    "email": "jason@rightscale.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rightscale-design/designkit-utilities/issues"
+  },
+  "homepage": "https://github.com/rightscale-design/designkit-utilities#readme",
+  "devDependencies": {
+    "bourbon": "^4.2.6",
+    "http-server": "^0.8.5",
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.8.1"
+  },
+  "scripts": {
+    "build-css": "./bin/build-css",
+    "build-min": "./bin/build-min",
+    "watch-css": "./bin/watch-css",
+    "serve": "./bin/http-server"
+  }
+}
