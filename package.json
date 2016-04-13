@@ -1,6 +1,6 @@
 {
   "name": "designkit-utilities",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Sass module containing utility classes.",
   "repository": {
     "type": "git",
