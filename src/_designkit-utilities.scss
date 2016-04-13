@@ -380,6 +380,10 @@
   overflow: auto;
 }
 
+// user selection
+.user-select-none { @include user-select(none); }
+.user-select-all { @include user-select(all); }
+
 // fullbleed (reserved for just the body)
 body {
   &.fullbleed {
