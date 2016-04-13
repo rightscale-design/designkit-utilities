@@ -1,5 +1,5 @@
-# Designkit Global
-Sass module containing utility classes.
+# Designkit Utilities
+Sass module containing utility classes to help design apps.
 
 ## Install
 
