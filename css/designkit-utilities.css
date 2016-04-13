@@ -618,6 +618,18 @@
   border-color: #e2e5e9;
 }
 
+.b-blue {
+  border-color: #0A83F6;
+}
+
+.b-green {
+  border-color: #80C11A;
+}
+
+.b-red {
+  border-color: #C32525;
+}
+
 .br0 {
   border-radius: 0;
 }

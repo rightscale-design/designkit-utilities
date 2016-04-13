@@ -171,9 +171,9 @@
 // border colors
 .b-grey { border-color: $grey-border; }
 .b-grey-light { border-color: $grey-border-light; }
-.b-blue {}
-.b-green {}
-.b-red {}
+.b-blue { border-color: $blue; }
+.b-green { border-color: $green; }
+.b-red { border-color: $red; }
 
 // border radius
 .br0 { border-radius: 0; }

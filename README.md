@@ -26,42 +26,6 @@ npm i designkit-utilities
 // Designkit-Utilities
 // --------------------------------------------------
 */
-/* For Hero Titles */
-.f-6,
-.f-headline {
-  font-size: 6rem;
-}
-
-.f-5,
-.f-subheadline {
-  font-size: 5rem;
-}
-
-/* Type Scale */
-.f1 {
-  font-size: 3rem;
-}
-
-.f2 {
-  font-size: 2.25rem;
-}
-
-.f3 {
-  font-size: 1.5rem;
-}
-
-.f4 {
-  font-size: 1.25rem;
-}
-
-.f5 {
-  font-size: 1rem;
-}
-
-.f6 {
-  font-size: .875rem;
-}
-
 .dn {
   display: none;
 }
@@ -677,6 +641,18 @@ npm i designkit-utilities
   border-color: #e2e5e9;
 }
 
+.b-blue {
+  border-color: #0A83F6;
+}
+
+.b-green {
+  border-color: #80C11A;
+}
+
+.b-red {
+  border-color: #C32525;
+}
+
 .br0 {
   border-radius: 0;
 }
@@ -1256,6 +1232,20 @@ npm i designkit-utilities
 .scroll {
   -webkit-overflow-scrolling: touch;
   overflow: auto;
+}
+
+.user-select-none {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.user-select-all {
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
 }
 
 body.fullbleed {
