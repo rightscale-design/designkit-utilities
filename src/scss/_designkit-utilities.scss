@@ -308,10 +308,10 @@
 .overflow-y-auto { overflow-y: auto; }
 
 // colors
-.color-link { color: #0A83F6; }
-.color-link-hover { color: #0769c6; }
-.color-text { color: #76899A; }
-.color-heading { color: #57626C; }
+.color-link { color: $link; }
+.color-link-hover { color: $link-hover; }
+.color-text { color: $text; }
+.color-heading { color: $heading; }
 
 // line hight
 .lh-solid { line-height: 1; }
@@ -406,22 +406,29 @@
 .underline { text-decoration: underline; }
 .no-underline { text-decoration: none; }
 
-.aspect-ratio {
+// aspect ratio
+.aspect-ratio-16-9,
+.aspect-ratio-60,
+.aspect-ratio-75,
+.aspect-ratio-100 {
   position: relative;
+  &:before {
+    content: "";
+    display: block;
+  }
 }
 
-.aspect-ratio--16-9:before,
-.aspect-ratio--60:before,
-.aspect-ratio--75:before,
-.aspect-ratio--100:before {
-  content: "";
-  display: block;
-}
+.aspect-ratio-16-9:before { padding-top: 56.25%; }
+.aspect-ratio-60:before { padding-top: 62.5%; }
+.aspect-ratio-75:before { padding-top: 75%; }
+.aspect-ratio-100:before { padding-top: 100%; }
 
-.aspect-ratio--16-9:before { padding-top: 56.25%;}
-.aspect-ratio--60:before {  padding-top: 62.5%; }
-.aspect-ratio--75:before {  padding-top: 75%; }
-.aspect-ratio--100:before {  padding-top: 100%; }
+// list style
+.list-style-disc { list-style-type: disc; }
+.list-style-circle { list-style-type: circle; }
+.list-style-square { list-style-type: square; }
+.list-style-decimal { list-style-type: decimal; }
+.list-style-none { list-style-type: none; }
 
 // fullbleed (reserved for just the body)
 body {
