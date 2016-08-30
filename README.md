@@ -68,6 +68,11 @@ npm i designkit-utilities
   display: table-column-group;
 }
 
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .center-block {
   display: block;
   margin-left: auto;
@@ -984,11 +989,11 @@ npm i designkit-utilities
   height: 100%;
 }
 
-.h-at {
+.h-auto {
   height: auto;
 }
 
-.h-i {
+.h-inherit {
   height: inherit;
 }
 
@@ -1158,6 +1163,7 @@ npm i designkit-utilities
 
 .hover-highlight {
   background-color: #fff;
+  -webkit-transition: background-color .500ms ease-in;
   transition: background-color .500ms ease-in;
 }
 
@@ -1231,7 +1237,7 @@ npm i designkit-utilities
 
 .scroll {
   -webkit-overflow-scrolling: touch;
-  overflow: auto;
+  overflow-y: scroll;
 }
 
 .user-select-none {
@@ -1246,6 +1252,74 @@ npm i designkit-utilities
   -moz-user-select: all;
   -ms-user-select: all;
   user-select: all;
+}
+
+.ws-normal {
+  white-space: normal;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.pre {
+  white-space: pre;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.z-2 {
+  z-index: 2;
+}
+
+.z-3 {
+  z-index: 3;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.aspect-ratio {
+  position: relative;
+}
+
+.aspect-ratio--16-9:before,
+.aspect-ratio--60:before,
+.aspect-ratio--75:before,
+.aspect-ratio--100:before {
+  content: "";
+  display: block;
+}
+
+.aspect-ratio--16-9:before {
+  padding-top: 56.25%;
+}
+
+.aspect-ratio--60:before {
+  padding-top: 62.5%;
+}
+
+.aspect-ratio--75:before {
+  padding-top: 75%;
+}
+
+.aspect-ratio--100:before {
+  padding-top: 100%;
 }
 
 body.fullbleed {
@@ -1263,22 +1337,8 @@ Jason Melgoza
 
 The MIT License (MIT)
 
-Copyright (c) 2016 RightScale
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
