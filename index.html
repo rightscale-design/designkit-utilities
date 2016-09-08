@@ -1,98 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Designkit Utilities</title>
-  <link rel="stylesheet" href="dist/designkit-utilities.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-  <style>
-    *,
-    *:before,
-    *:after {
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      letter-spacing: 0;
-      font-weight: 400;
-      font-style: normal;
-      text-rendering: optimizeLegibility;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      color: #111;
-      font-size: 13px;
-      line-height: 1.5;
-    }
-
-    .wrapper {
-      width: 928px;
-      padding: 0 40px;
-      margin: 0 auto;
-    }
-  </style>
+  <title>UI</title>
+  <meta name="description" content="Simple css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/dist/designkit-utilities.min.css">
 </head>
-<body>
-  <div class="wrapper">
-    <h1>Designkit Utilities</h1>
-    <div class="cr">
-      <div class="w-100">
-        <div class="ba b-grey ba1 shadow pa4 mb3">
-          <div class="center w5 aspect-ratio-16-9 bg-header br1">
-            <div class="aspect-ratio-content"></div>
+
+<body class="relative w-100 sans-serif">
+  <header class="bg-black-90 fixed w-100 ph3 pv3 ph5-ns pv4-ns">
+    <nav class="f6 fw6 ttu tracked">
+      <a class="link dim white dib mr3" href="#" title="Home">Home</a>
+      <a class="link dim white dib mr3" href="#" title="About">About</a>
+      <a class="link dim white dib mr3" href="#" title="Store">Store</a>
+      <a class="link dim white dib" href="#" title="Contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="w-100 ph3 pt5 pb4 ph5-ns pt6-ns pb5-ns bg-light-gray">
+    <article class="br2 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw5 bg-white shadow">
+      <img src="http://placekitten.com/g/600/300" class="db w-100 br2 br--top" alt="kitty">
+      <div class="pa2 ph3-ns pb3-ns">
+        <div class="dt w-100 mt1">
+          <div class="dtc">
+            <h1 class="f5 f4-ns mv0">Cat</h1>
+          </div>
+          <div class="dtc tr">
+            <h2 class="f5 mv0">$1,000</h2>
           </div>
         </div>
+        <p class="f6 lh-copy measure mt2 mid-gray">
+          If it fits, i sits burrow under covers. Destroy couch leave hair everywhere, and touch water with paw then recoil in horror.
+        </p>
       </div>
-    </div>
-    <div class="cf">
-      <div class="fl w-33">
-        <div class="ba b-grey ba1 shadow pa4 mb3">
-          <div class="color-heading b mb2">Utilities Test</div>
-          <div class="color-text sans mb2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae consectetur velit recusandae vel earum? Esse, nostrum dignissimos corrupti, magni deleniti modi culpa accusamus assumenda consequatur maxime voluptatum iure vitae nemo.</div>
-        </div>
-      </div>
-      <div class="fl w-34">
-        <div class="ba b-grey ba1 shadow pa4 mb3 mh3">
-          <div class="color-heading b mb2">Utilities Test</div>
-          <div class="color-text mb2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae consectetur velit recusandae vel earum? Esse, nostrum dignissimos corrupti, magni deleniti modi culpa accusamus assumenda consequatur maxime voluptatum iure vitae nemo.</div>
-        </div>
-      </div>
-      <div class="fl w-33">
-        <div class="ba b-grey ba1 shadow pa4 mb3">
-          <div class="color-heading b mb2">Utilities Test</div>
-          <div class="color-text sans mb2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae consectetur velit recusandae vel earum? Esse, nostrum dignissimos corrupti, magni deleniti modi culpa accusamus assumenda consequatur maxime voluptatum iure vitae nemo.</div>
-        </div>
-      </div>
-    </div>
-    <div class="cf">
-      <div class="fl w-25">
-        <div class="pa4 ba b-blue br1 shadow mr3">
-          <div class="color-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ea, assumenda ducimus quia nostrum deleniti, autem quo? Repellat, facilis enim ut libero inventore consectetur accusamus aliquid, qui doloribus, sint voluptatem?</div>
-        </div>
-      </div>
-      <div class="fl w-25">
-        <div class="pa4 ba b-red br1 shadow mr3">
-          <div class="color-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ea, assumenda ducimus quia nostrum deleniti, autem quo? Repellat, facilis enim ut libero inventore consectetur accusamus aliquid, qui doloribus, sint voluptatem?</div>
-        </div>
-      </div>
-      <div class="fl w-25">
-        <div class="pa4 ba b-green br1 shadow mr3">
-          <div class="color-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ea, assumenda ducimus quia nostrum deleniti, autem quo? Repellat, facilis enim ut libero inventore consectetur accusamus aliquid, qui doloribus, sint voluptatem?</div>
-        </div>
-      </div>
-      <div class="fl w-25">
-        <div class="ba b-grey bw2 br1 shadow">
-          <div class="ph4 pv3 bb b-grey-light">
-            <div class="color-heading b">Heading</div>
-          </div>
-          <div class="ph4 pv3">
-            <div class="color-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ea, assumenda ducimus quia nostrum deleniti, autem quo? Repellat, facilis enim ut libero inventore consectetur accusamus aliquid, qui doloribus, sint voluptatem?</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    </article>
+
+    <section class="w-100 black-70">
+      <p class="measure lh-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae hic dolores, soluta facere sunt natus corporis voluptates quia consequuntur quibusdam temporibus officiis dolorum minus enim iusto, adipisci quos minima eligendi.</p>
+    </section>
+  </main>
+
+  <footer class="bg-washed-blue black-70 ph3 pv4 ph5-ns bt b--black-10">
+
+    <small class="f6 measure db lh-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla!</small>
+
+  </footer>
+
 </body>
+
 </html>

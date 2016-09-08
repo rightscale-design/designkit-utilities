@@ -1,0 +1,18 @@
+/*
+
+  TABLES
+
+*/
+
+.collapse {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.striped--light-gray:nth-child(odd) {
+  background-color: $light-gray;
+}
+
+.striped--near-white:nth-child(odd) {
+  background-color: $near-white;
+}

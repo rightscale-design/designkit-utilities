@@ -1,0 +1,90 @@
+/*
+
+   SKINS
+
+*/
+
+/* Text colors */
+
+.black-90 {         color: $black-90; }
+.black-80 {         color: $black-80; }
+.black-70 {         color: $black-70; }
+.black-60 {         color: $black-60; }
+.black-50 {         color: $black-50; }
+.black-40 {         color: $black-40; }
+.black-30 {         color: $black-30; }
+.black-20 {         color: $black-20; }
+.black-10 {         color: $black-10; }
+.black-05 {         color: $black-05; }
+
+.white-90 {         color: $white-90; }
+.white-80 {         color: $white-80; }
+.white-70 {         color: $white-70; }
+.white-60 {         color: $white-60; }
+.white-50 {         color: $white-50; }
+.white-40 {         color: $white-40; }
+.white-30 {         color: $white-30; }
+.white-20 {         color: $white-20; }
+.white-10 {         color: $white-10; }
+
+.black {         color: $black; }
+.near-black {    color: $near-black; }
+.dark-gray {     color: $dark-gray; }
+.mid-gray {      color: $mid-gray; }
+.gray {          color: $gray; }
+.light-gray {    color: $light-gray; }
+.near-white {    color: $near-white; }
+.white {         color: $white; }
+
+/* Background colors */
+
+.bg-black-90 {        background-color: $black-90; }
+.bg-black-80 {        background-color: $black-80; }
+.bg-black-70 {        background-color: $black-70; }
+.bg-black-60 {        background-color: $black-60; }
+.bg-black-50 {        background-color: $black-50; }
+.bg-black-40 {        background-color: $black-40; }
+.bg-black-30 {        background-color: $black-30; }
+.bg-black-20 {        background-color: $black-20; }
+.bg-black-10 {        background-color: $black-10; }
+.bg-black-05 {        background-color: $black-05; }
+.bg-white-90 {        background-color: $white-90; }
+.bg-white-80 {        background-color: $white-80; }
+.bg-white-70 {        background-color: $white-70; }
+.bg-white-60 {        background-color: $white-60; }
+.bg-white-50 {        background-color: $white-50; }
+.bg-white-40 {        background-color: $white-40; }
+.bg-white-30 {        background-color: $white-30; }
+.bg-white-20 {        background-color: $white-20; }
+.bg-white-10 {        background-color: $white-10; }
+
+.bg-black {         background-color: $black; }
+.bg-near-black {    background-color: $near-black; }
+.bg-dark-gray {     background-color: $dark-gray; }
+.bg-mid-gray {      background-color: $mid-gray; }
+.bg-gray {          background-color: $gray; }
+.bg-light-gray {    background-color: $light-gray; }
+.bg-near-white {    background-color: $near-white; }
+.bg-white {         background-color: $white; }
+.bg-transparent {   background-color: $transparent; }
+
+/* Skins for specific pseudoclasses */
+
+.hover-black:hover { color: $black; }
+.hover-near-black:hover { color: $near-black; }
+.hover-dark-gray:hover { color: $dark-gray; }
+.hover-mid-gray:hover { color: $mid-gray; }
+.hover-gray:hover { color: $gray; }
+.hover-light-gray:hover { color: $light-gray; }
+.hover-near-white:hover { color: $near-white; }
+.hover-white:hover { color: $white; }
+
+.hover-bg-black:hover { background-color: $black; }
+.hover-bg-near-black:hover { background-color: $near-black; }
+.hover-bg-dark-gray:hover { background-color: $dark-gray; }
+.hover-bg-mid-gray:hover { background-color: $mid-gray; }
+.hover-bg-gray:hover { background-color: $gray; }
+.hover-bg-light-gray:hover { background-color: $light-gray; }
+.hover-bg-near-white:hover { background-color: $near-white; }
+.hover-bg-white:hover { background-color: $white; }
+.hover-bg-transparent:hover { background-color: $transparent; }
