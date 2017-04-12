@@ -75,8 +75,8 @@ npm i designkit-utilities
 
 .center-block {
   display: block;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 .cf::after, .clearfix::after {
@@ -1294,38 +1294,77 @@ npm i designkit-utilities
   text-decoration: none;
 }
 
-.aspect-ratio {
+.ttc {
+  text-transform: capitalize;
+}
+
+.ttl {
+  text-transform: lowercase;
+}
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.ttn {
+  text-transform: none;
+}
+
+.aspect-ratio-16-9,
+.aspect-ratio-60,
+.aspect-ratio-75,
+.aspect-ratio-100 {
   position: relative;
 }
 
-.aspect-ratio--16-9:before,
-.aspect-ratio--60:before,
-.aspect-ratio--75:before,
-.aspect-ratio--100:before {
-  content: "";
+.aspect-ratio-16-9:before,
+.aspect-ratio-60:before,
+.aspect-ratio-75:before,
+.aspect-ratio-100:before {
   display: block;
+  content: "";
 }
 
-.aspect-ratio--16-9:before {
+.aspect-ratio-16-9:before {
   padding-top: 56.25%;
 }
 
-.aspect-ratio--60:before {
+.aspect-ratio-60:before {
   padding-top: 62.5%;
 }
 
-.aspect-ratio--75:before {
+.aspect-ratio-75:before {
   padding-top: 75%;
 }
 
-.aspect-ratio--100:before {
+.aspect-ratio-100:before {
   padding-top: 100%;
 }
 
+.list-style-disc {
+  list-style-type: disc;
+}
+
+.list-style-circle {
+  list-style-type: circle;
+}
+
+.list-style-square {
+  list-style-type: square;
+}
+
+.list-style-decimal {
+  list-style-type: decimal;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
 body.fullbleed {
-  margin: 0;
-  padding: 0;
   height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 ```
 

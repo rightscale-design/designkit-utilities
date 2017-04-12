@@ -406,6 +406,12 @@
 .underline { text-decoration: underline; }
 .no-underline { text-decoration: none; }
 
+// text transform
+.ttc { text-transform: capitalize; }
+.ttl { text-transform: lowercase; }
+.ttu { text-transform: uppercase; }
+.ttn { text-transform: none; }
+
 // aspect ratio
 .aspect-ratio-16-9,
 .aspect-ratio-60,
