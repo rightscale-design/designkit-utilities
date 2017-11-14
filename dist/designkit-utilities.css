@@ -1140,7 +1140,6 @@
 
 .hover-highlight {
   background-color: #fff;
-  -webkit-transition: background-color .500ms ease-in;
   transition: background-color .500ms ease-in;
 }
 
@@ -1198,6 +1197,22 @@
 
 .tc {
   text-align: center;
+}
+
+.ttc {
+  text-transform: capitalize;
+}
+
+.ttl {
+  text-transform: lowercase;
+}
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.ttn {
+  text-transform: none;
 }
 
 .hide {
