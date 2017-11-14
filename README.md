@@ -75,8 +75,8 @@ npm i designkit-utilities
 
 .center-block {
   display: block;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 .cf::after, .clearfix::after {
@@ -1163,7 +1163,6 @@ npm i designkit-utilities
 
 .hover-highlight {
   background-color: #fff;
-  -webkit-transition: background-color .500ms ease-in;
   transition: background-color .500ms ease-in;
 }
 
@@ -1221,6 +1220,22 @@ npm i designkit-utilities
 
 .tc {
   text-align: center;
+}
+
+.ttc {
+  text-transform: capitalize;
+}
+
+.ttl {
+  text-transform: lowercase;
+}
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.ttn {
+  text-transform: none;
 }
 
 .hide {
@@ -1294,38 +1309,61 @@ npm i designkit-utilities
   text-decoration: none;
 }
 
-.aspect-ratio {
+.aspect-ratio-16-9,
+.aspect-ratio-60,
+.aspect-ratio-75,
+.aspect-ratio-100 {
   position: relative;
 }
 
-.aspect-ratio--16-9:before,
-.aspect-ratio--60:before,
-.aspect-ratio--75:before,
-.aspect-ratio--100:before {
-  content: "";
+.aspect-ratio-16-9:before,
+.aspect-ratio-60:before,
+.aspect-ratio-75:before,
+.aspect-ratio-100:before {
   display: block;
+  content: "";
 }
 
-.aspect-ratio--16-9:before {
+.aspect-ratio-16-9:before {
   padding-top: 56.25%;
 }
 
-.aspect-ratio--60:before {
+.aspect-ratio-60:before {
   padding-top: 62.5%;
 }
 
-.aspect-ratio--75:before {
+.aspect-ratio-75:before {
   padding-top: 75%;
 }
 
-.aspect-ratio--100:before {
+.aspect-ratio-100:before {
   padding-top: 100%;
 }
 
+.list-style-disc {
+  list-style-type: disc;
+}
+
+.list-style-circle {
+  list-style-type: circle;
+}
+
+.list-style-square {
+  list-style-type: square;
+}
+
+.list-style-decimal {
+  list-style-type: decimal;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
 body.fullbleed {
-  margin: 0;
-  padding: 0;
   height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 ```
 
@@ -1335,10 +1373,4 @@ Jason Melgoza
 
 ## License
 
-The MIT License (MIT)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+MIT
