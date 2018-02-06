@@ -22,7 +22,8 @@
   "files": [
     "LICENSE",
     "README.md",
-    "dist/",
+    "dist/designkit-utilities.css",
+    "dist/designkit-utilities.min.css",
     "src/"
   ],
   "style": "src/index.scss",

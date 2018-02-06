@@ -1,3 +1,9 @@
+
+# v1.0.2
+
+* Added flex rules
+* Updated package.json
+
 # v1.0.1
 
 * Updated CSS to include inline-flex and inline-grid
