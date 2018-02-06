@@ -1,3 +1,7 @@
+# v1.0.1
+
+* Updated CSS to include inline-flex and inline-grid
+
 # v1.0.0
 
 * Updated build scripts
