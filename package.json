@@ -1,6 +1,6 @@
 {
   "name": "designkit-utilities",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sass module containing utility classes to help design apps.",
   "homepage": "https://github.com/rightscale-design/designkit-utilities#readme",
   "repository": {
@@ -22,7 +22,8 @@
   "files": [
     "LICENSE",
     "README.md",
-    "dist/",
+    "dist/designkit-utilities.css",
+    "dist/designkit-utilities.min.css",
     "src/"
   ],
   "style": "src/index.scss",
