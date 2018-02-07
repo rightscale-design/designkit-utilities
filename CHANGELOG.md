@@ -1,3 +1,6 @@
+# v1.0.3
+
+* Specified source files for unpkg
 
 # v1.0.2
 
