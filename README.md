@@ -42,6 +42,14 @@ npm i designkit-utilities
   display: inline-block;
 }
 
+.dif {
+  display: inline-flex;
+}
+
+.dig {
+  display: inline-grid;
+}
+
 .dit {
   display: inline-table;
 }
