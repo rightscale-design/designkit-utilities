@@ -196,6 +196,17 @@
   display: inline-block;
 }
 
+.dif {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.dig {
+  display: -ms-inline-grid;
+  display: inline-grid;
+}
+
 .dit {
   display: inline-table;
 }
