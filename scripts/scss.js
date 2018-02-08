@@ -7,7 +7,6 @@ sass.render({
   file: './src/index.scss',
   outputStyle: 'expanded',
   includePaths: [
-    'node_modules/bourbon/app/assets/stylesheets',
     'node_modules/designkit-colors/src/scss',
   ]
 }, function(error, result) {
