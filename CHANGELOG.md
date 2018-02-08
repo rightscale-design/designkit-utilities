@@ -1,3 +1,8 @@
+# v1.0.4
+
+* Removed Bourbon
+* Updated package.json
+
 # v1.0.3
 
 * Specified source files for unpkg
