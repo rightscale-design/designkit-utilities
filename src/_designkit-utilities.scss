@@ -63,8 +63,14 @@
   margin-left: auto;
 }
 
+// clearfix
+.cf::after, .clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
 // floats
-.cf, .clearfix { @include clearfix; }
 .fl, .pull-left { float: left; display: inline; }
 .fr, .pull-right { float: right; display: inline; }
 .fn { float: none; }
@@ -228,10 +234,22 @@
 .br3 { border-radius: .5rem; }
 .br4 { border-radius: 1rem; }
 .br-100 { border-radius: 100%; }
-.br--top { @include border-bottom-radius(0); }
-.br--right { @include border-left-radius(0); }
-.br--bottom { @include border-top-radius(0); }
-.br--left { @include border-right-radius(0); }
+.br--top {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.br--right {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.br--bottom {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.br--left {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
 
 // opacity
 .o-100 { opacity: 1; }
@@ -433,8 +451,8 @@
 }
 
 // user selection
-.user-select-none { @include user-select(none); }
-.user-select-all { @include user-select(all); }
+.user-select-none { user-select: none; }
+.user-select-all { user-select: all; }
 
 // white space
 .ws-normal { white-space: normal; }
