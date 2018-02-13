@@ -1,6 +1,6 @@
 {
   "name": "designkit-utilities",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Sass module containing utility classes to help design apps.",
   "homepage": "https://github.com/rightscale-design/designkit-utilities#readme",
   "repository": {
@@ -35,7 +35,7 @@
   "devDependencies": {
     "autoprefixer": "^6.4.0",
     "csso": "^3.1.1",
-    "designkit-colors": "^1.0.0",
+    "designkit-colors": "^1.1.0",
     "node-sass": "^4.5.3",
     "nodemon": "^1.10.0",
     "npm-run-all": "^2.3.0",
@@ -49,7 +49,8 @@
     "build:prefix": "node ./scripts/postcss.js",
     "build:minify": "node ./scripts/minify.js",
     "build:docs": "node ./scripts/docs.js",
-    "build:all": "npm run build:scss && npm run build:prefix && npm run build:minify && npm run build:docs",
+    "build:readme": "node ./scripts/readme.js",
+    "build:all": "npm run build:scss && npm run build:prefix && npm run build:minify && npm run build:docs && npm run build:readme",
     "build:serve": "run-p watch serve"
   }
 }

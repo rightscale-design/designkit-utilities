@@ -1,24 +1,14 @@
-# Designkit Utilities
+# designkit-utilities
+1.0.5
+
 Sass module containing utility classes to help design apps.
 
 ## Install
-
-```bash
-npm i designkit-utilities
+```
+npm i --save designkit-utilities
 ```
 
-## Usage
-
-```html
-<div class="cf">
-  <div class="fl w-50 pa4 ba b-grey br1 shadow">
-    <div class="color-heading b mb2">Utilities Test</div>
-    <div class="color-text sans mb2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae consectetur velit recusandae vel earum? Esse, nostrum dignissimos corrupti, magni deleniti modi culpa accusamus assumenda consequatur maxime voluptatum iure vitae nemo.</div>
-  </div>
-</div>
-```
-
-## The CSS
+## CSS
 
 ```css
 /*
@@ -1553,6 +1543,7 @@ body.fullbleed {
   padding: 0;
   margin: 0;
 }
+
 ```
 
 ## Author

@@ -1,3 +1,10 @@
+# v1.0.5
+
+* Updated package.json
+* Updated scss script
+* Updated docs
+* Added readme script
+
 # v1.0.4
 
 * Removed Bourbon
