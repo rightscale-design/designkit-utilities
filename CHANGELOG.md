@@ -1,3 +1,7 @@
+# v1.0.6
+
+* Added spacing breakpoints for medium and large screens
+
 # v1.0.5
 
 * Updated package.json
